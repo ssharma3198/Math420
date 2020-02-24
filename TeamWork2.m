@@ -23,7 +23,7 @@ ErrorNoisy_X_Small = zeros(1, 10);
 
 % If you just want to test on 1 file, change from i=1:10 to i=x:x
 for eVal=1:2
-for i=1:9   
+for i=1:10   
     disp("--------------------------------------------------------------------------------")
     clean_file = files(i,1);
     noisy_file = files(i,2);
